@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/freg.iml" filepath="$PROJECT_DIR$/freg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freg/freg.iml" filepath="$PROJECT_DIR$/freg/freg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freg/freg-freg.iml" filepath="$PROJECT_DIR$/freg/freg-freg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" filepath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" />
+    </modules>
+  </component>
+</project>
