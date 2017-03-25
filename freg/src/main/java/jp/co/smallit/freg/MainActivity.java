@@ -74,7 +74,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        MyFisherFaceRecognizer rec = new MyFisherFaceRecognizer();
         ColorBlobDetector mDetector = new ColorBlobDetector();
+
+
     }
 
     @Override

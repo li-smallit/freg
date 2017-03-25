@@ -11,8 +11,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79adad8d-6c44-4ff8-ad8c-b1cc39da0fa1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/face-detection.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/FisherFaceRecognizer.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freg/freg.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_freg_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary320_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/src/main/jniLibs/arm64-v8a/libopencv_java3.so" afterPath="$PROJECT_DIR$/freg/src/main/jniLibs/arm64-v8a/libopencv_java3.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/src/main/jniLibs/armeabi-v7a/libopencv_java3.so" afterPath="$PROJECT_DIR$/freg/src/main/jniLibs/armeabi-v7a/libopencv_java3.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/armeabi/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips64/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips64/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips64/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips64/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips64/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/mips64/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86_64/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86_64/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips64/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips64/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips64/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips64/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips64/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/mips64/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86_64/android_gradle_build.json" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86_64/android_gradle_build.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_command.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_output.txt" afterPath="$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/freg-freg.iml" afterPath="$PROJECT_DIR$/freg/freg-freg.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java" afterPath="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" afterPath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/AsyncServiceHelper.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/AsyncServiceHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/BaseLoaderCallback.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/BaseLoaderCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/Camera2Renderer.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/Camera2Renderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraBridgeViewBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraGLRendererBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraGLSurfaceView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraRenderer.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/CameraRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/FpsMeter.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/FpsMeter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/InstallCallbackInterface.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/InstallCallbackInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/JavaCameraView.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/JavaCameraView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/LoaderCallbackInterface.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/LoaderCallbackInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/OpenCVLoader.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/OpenCVLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/StaticHelper.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/StaticHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/Utils.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/CvException.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/CvException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/CvType.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/CvType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/DMatch.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/DMatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/KeyPoint.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/KeyPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Mat.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Mat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfByte.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfByte.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfDMatch.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfDMatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfDouble.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfDouble.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfFloat.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfFloat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfFloat4.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfFloat4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfFloat6.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfFloat6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfInt.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfInt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfInt4.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfInt4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfKeyPoint.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfKeyPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint2f.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint2f.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint3.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint3f.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfPoint3f.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfRect.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/MatOfRect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Point.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Point3.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Point3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Range.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Range.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Rect.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Rect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/RotatedRect.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/RotatedRect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Scalar.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Scalar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Size.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/Size.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/TermCriteria.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/core/TermCriteria.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/imgproc/Moments.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/imgproc/Moments.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/utils/Converters.java" afterPath="$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/utils/Converters.java" />
     </list>
     <ignored path="face-detection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,118 +152,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FaceDetectGrayActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/activity/FaceDetectGrayActivity.java">
+      <file leaf-file-name="Android.mk" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/freg/src/main/jni/Android.mk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagePreviewAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/adapter/ImagePreviewAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaceResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/model/FaceResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraErrorCallback.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/CameraErrorCallback.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/freg/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ImageUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/Util.java">
+      <file leaf-file-name="OpenCVEngineInterface.aidl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openCVLibrary320/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            <state relative-caret-position="870">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2559#2795#0" expanded="true" />
+                <element signature="e#2794#2795#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorBlobDetector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ColorBlobDetector.java">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ndkBuild_build_output.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/freg/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freg/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="FisherFaceRecognizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/FisherFaceRecognizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FaceRecognizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/face/FaceRecognizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openCVLibrary320/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -2335,6 +2431,11 @@
         </entry>
       </map>
     </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5961541108000" />
+      </map>
+    </option>
     <option name="projectBuildClasspath">
       <map>
         <entry key="$PROJECT_DIR$">
@@ -2748,13 +2849,14 @@
         <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/CameraErrorCallback.java" />
         <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ImageUtils.java" />
         <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/Util.java" />
-        <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java" />
         <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ColorBlobDetector.java" />
+        <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/FisherFaceRecognizer.java" />
+        <option value="$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
+    <option name="x" value="190" />
     <option name="y" value="23" />
     <option name="width" value="1379" />
     <option name="height" value="877" />
@@ -2770,7 +2872,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2784,6 +2886,417 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="armeabi-v7a" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="armeabi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arm64-v8a" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary320" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Build Files" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.ExternalBuildFilesGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary320" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary320" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aidl" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary320" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencv" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary320" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencv" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary320" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg-freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg-freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="armeabi-v7a" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg-freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="armeabi" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg-freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arm64-v8a" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg-freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg-freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freg" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FisherFaceRecognizer.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -2823,357 +3336,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVLibrary320" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimens.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidJniFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m.tri.freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m.tri.freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m.tri.freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m.tri.freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m.tri.freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m.tri.freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freg" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3521,7 +3683,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="freg-freg" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="false" name="freg-freg" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="freg-freg" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -3617,8 +3779,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1379" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="190" y="23" width="1379" height="877" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31011826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3626,15 +3788,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3193167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3193167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22996058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29693344" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29693344" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3648,6 +3809,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -3701,62 +3863,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/android/JavaCameraView.java</url>
-          <line>76</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java" />
-    <entry file="file://$PROJECT_DIR$/openCVLibrary320/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freg/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freg/src/main/java/m/tri/freg/activity/PhotoDetectActivity.java" />
-    <entry file="file://$PROJECT_DIR$/freg/src/main/java/m/tri/freg/activity/FaceDetectRGBActivity.java" />
     <entry file="file://$PROJECT_DIR$/freg/src/main/java/m/tri/freg/activity/FaceDetectGrayActivity.java" />
     <entry file="file://$PROJECT_DIR$/freg/src/main/java/m/tri/freg/adapter/ImagePreviewAdapter.java" />
     <entry file="file://$PROJECT_DIR$/freg/src/main/java/m/tri/freg/model/FaceResult.java" />
@@ -3768,7 +3890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3776,7 +3897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3784,7 +3904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3792,55 +3911,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freg/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary320/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freg/src/main/java/m/tri/freg/activity/ui/FaceOverlayView.java" />
-    <entry file="file://$PROJECT_DIR$/freg/freg.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1348">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/freg.iml" />
     <entry file="file://$PROJECT_DIR$/freg/src/main/jni/DetectionBasedTracker_jni.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2295">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3859,7 +3938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3867,9 +3945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3877,7 +3952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3885,9 +3959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3895,9 +3966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3913,9 +3981,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3923,9 +3989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3942,41 +4006,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/activity/FaceDetectGrayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="75">
           <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ImageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="60">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ColorBlobDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3984,7 +4024,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/utils/ColorBlobDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1097#1098#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#2167#2168#0" expanded="false" />
+            <element signature="e#2199#2200#0" expanded="false" />
+            <element signature="e#2249#2250#0" expanded="false" />
+            <element signature="e#2287#2288#0" expanded="false" />
+            <element signature="e#3615#3616#0" expanded="false" />
+            <element signature="e#3647#3648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/src/main/jni/Application.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/src/main/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary320/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary320/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary320/src/main/java/org/opencv/face/FaceRecognizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/FisherFaceRecognizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freg/src/main/java/jp/co/smallit/freg/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#2559#2795#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

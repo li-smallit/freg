@@ -1,14 +1,14 @@
 Executable : /Users/kevin/Library/Android/sdk/ndk-bundle/ndk-build
 arguments : 
 NDK_PROJECT_PATH=null
-APP_BUILD_SCRIPT=/Users/kevin/work/face-detection/freg/src/main/jni/Android.mk
-NDK_APPLICATION_MK=/Users/kevin/work/face-detection/freg/src/main/jni/Application.mk
+APP_BUILD_SCRIPT=/Users/kevin/work/freg/freg/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/Users/kevin/work/freg/freg/src/main/jni/Application.mk
 APP_ABI=mips64
 NDK_ALL_ABIS=mips64
 NDK_DEBUG=0
 APP_PLATFORM=android-21
-NDK_OUT=/Users/kevin/work/face-detection/freg/build/intermediates/ndkBuild/release/obj
-NDK_LIBS_OUT=/Users/kevin/work/face-detection/freg/build/intermediates/ndkBuild/release/lib
+NDK_OUT=/Users/kevin/work/freg/freg/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/Users/kevin/work/freg/freg/build/intermediates/ndkBuild/release/lib
 APP_SHORT_COMMANDS=false
 LOCAL_SHORT_COMMANDS=false
 -B
