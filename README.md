@@ -12,6 +12,7 @@
   - install run the freg-release.apk
   - click FIND WHO
   - check the result image and confidence(確度)
+  - look the demo-2017-03-27-020544.png for image
 # some points
   - faces_test_library was the The Database of Faces of AT&T
     http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
