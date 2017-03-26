@@ -1,4 +1,4 @@
-# freg -> face
+# freg -> face recognition
 - 1, please install android ndk in you computer
 - 2, follow http://sarl-tokyo.com/wordpress/?p=553 to make the project run
 
@@ -22,3 +22,9 @@
   - the apk files was in freg/freg/freg-release.apk
   - the jks file for making apk is /freg/freg.jks
   - jks's password is fregfreg
+# some reference url
+ - http://docs.opencv.org/trunk/dd/d65/classcv_1_1face_1_1FaceRecognizer.html
+ - http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
+ - http://www.emgu.com/forum/viewtopic.php?t=4175
+ - http://docs.opencv.org/3.2.0/da/d60/tutorial_face_main.html#tutorial_face_appendix_csv
+ - https://github.com/danyf90/FaceRecognizer/blob/master/src/com/eim/facerecognition/EIMFaceRecognizer.java
