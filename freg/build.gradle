@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "m.tri.facedetectcamera"
+        applicationId "jp.co.smallit.freg"
         minSdkVersion 21
         targetSdkVersion 23
 

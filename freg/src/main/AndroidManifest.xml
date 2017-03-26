@@ -3,6 +3,8 @@
           package="jp.co.smallit.freg"
           android:versionCode="301"
           android:versionName="3.01">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -38,7 +40,7 @@
                       android:largeScreens="true"
                       android:anyDensity="true" />
 
-    <uses-sdk android:minSdkVersion="8" />
+    <uses-sdk android:minSdkVersion="21" />
 
     <uses-permission android:name="android.permission.CAMERA"/>
 
@@ -47,5 +49,5 @@
     <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
     <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 </manifest>

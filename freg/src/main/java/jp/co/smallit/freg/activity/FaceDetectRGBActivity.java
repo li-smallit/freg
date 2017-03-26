@@ -2,6 +2,7 @@ package jp.co.smallit.freg.activity;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
@@ -11,6 +12,7 @@ import android.graphics.RectF;
 import android.graphics.YuvImage;
 import android.hardware.Camera;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -28,7 +30,11 @@ import android.view.WindowManager;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -69,7 +75,7 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
     private final CameraErrorCallback mErrorCallback = new CameraErrorCallback();
 
 
-    private static final int MAX_FACE = 10;
+    private int MAX_FACE = 10;
     private boolean isThreadWorking = false;
     private Handler handler;
     private FaceDetectThread detectThread = null;
@@ -91,6 +97,7 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
     private ArrayList<Bitmap> facesBitmap;
 
 
+    private boolean isTraining = true;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -104,6 +111,13 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
 
         setContentView(R.layout.activity_camera_viewer);
 
+        Intent myIntent = getIntent();
+        isTraining = myIntent.getBooleanExtra("mode",true);
+        if(isTraining) {
+            MAX_FACE = 10;
+        } else {
+            MAX_FACE = 1;
+        }
         mView = (SurfaceView) findViewById(R.id.surfaceview);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
@@ -130,8 +144,12 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Face Detect RGB");
-
+        //getSupportActionBar().setTitle("Face Detect RGB");
+        if (isTraining) {
+            getSupportActionBar().setTitle("train face");
+        } else {
+            getSupportActionBar().setTitle("find who");
+        }
         if (icicle != null)
             cameraId = icicle.getInt(BUNDLE_CAMERA_ID, 0);
     }
@@ -549,6 +567,9 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
                                 if (faceCroped != null) {
                                     handler.post(new Runnable() {
                                         public void run() {
+                                            if (!isTraining) {
+                                                imagePreviewAdapter.clearAll();
+                                            }
                                             imagePreviewAdapter.add(faceCroped);
                                         }
                                     });
@@ -576,11 +597,60 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
                     if (counter == (Integer.MAX_VALUE - 1000))
                         counter = 0;
 
+                    int cnt = imagePreviewAdapter.getItemCount();
+                    for(int i=0;i<cnt;i++){
+                        if (isTraining) {
+                            saveTrainImages(i);
+                        }else {
+                            saveTestImage(i);
+                        }
+                    }
                     isThreadWorking = false;
                 }
             });
         }
     }
+
+    private void saveTrainImages(int cnt){
+        Bitmap img = imagePreviewAdapter.getItem(cnt);
+        try {
+            Date mDate = new Date();
+            SimpleDateFormat fileName = new SimpleDateFormat("yyyyMMdd");
+            File targetFile = new File(Environment.getExternalStorageDirectory().toString(),
+                    "freg_train_"+String.valueOf(cnt)+ "_"+fileName.format(mDate) + ".jpg");
+            if(targetFile.exists()){
+                return;
+            }
+            FileOutputStream fos = new FileOutputStream(targetFile);
+            img.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+            fos.close();
+            Log.i("file path ", "" + targetFile.getAbsolutePath());
+
+        } catch (Exception e) {
+            Log.e("Error", "" + e.toString());
+        }
+    }
+
+    private void saveTestImage(int cnt){
+        Bitmap img = imagePreviewAdapter.getItem(cnt);
+        try {
+            Date mDate = new Date();
+            SimpleDateFormat fileName = new SimpleDateFormat("yyyyMMdd");
+            File targetFile = new File(Environment.getExternalStorageDirectory().toString(),
+                    "freg_test_"+fileName.format(mDate) + ".jpg");
+            if(targetFile.exists()){
+                return;
+            }
+            FileOutputStream fos = new FileOutputStream(targetFile);
+            img.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+            fos.close();
+            Log.i("file path ", "" + targetFile.getAbsolutePath());
+
+        } catch (Exception e) {
+            Log.e("Error", "" + e.toString());
+        }
+    }
+
 
     /**
      * Release Memory

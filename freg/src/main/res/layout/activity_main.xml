@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="m.tri.freg.MainActivity">
+    tools:context="jp.co.smallit.freg.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,41 +19,70 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <Button
+                android:id="@+id/btnTrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:text="Train Face" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Detect face from live Camera:"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="train list"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            <Button
+                    android:id="@+id/clearTrain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:text="clear trained faces" />
+           </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_preview"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:scrollbars="horizontal" />
 
             <Button
-                android:id="@+id/btnGray"
+                android:id="@+id/btnTest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/activity_vertical_margin"
-                android:text="Gray Frame Image" />
+                android:text="to be find" />
+
+            <ImageView
+                android:layout_width="@dimen/image_preview"
+                android:layout_height="@dimen/image_preview"
+                android:id="@+id/test_image"
+                android:layout_margin="10dp"/>
 
             <Button
-                android:id="@+id/btnRGB"
+                android:id="@+id/btnFind"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/activity_vertical_margin"
-                android:text="RGB Frame Image" />
+                android:text="find who" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="Detect face from Image Bitmap:"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_result"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_preview"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:scrollbars="horizontal" />
 
-            <Button
-                android:id="@+id/btnImage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/activity_vertical_margin"
-                android:text="From Image" />
 
         </LinearLayout>
     </ScrollView>
