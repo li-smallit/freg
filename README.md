@@ -7,9 +7,9 @@
   - how to build opencv with extra module for android https://github.com/opencv/opencv_contrib
   - how to build multi release arm64-v8a, https://github.com/opencv/opencv/blob/master/platforms/android/android.toolchain.cmake
 
-# how to run the test
+# how to run the demo
   - copy freg_test_faces 5 faces to folder Environment.getExternalStorageDirectory() in your phone
-  - run the apk
+  - install run the freg-release.apk
   - click FIND WHO
   - check the result image and confidence(確度)
 # some points
@@ -22,4 +22,3 @@
   - the apk files was in freg/freg/freg-release.apk
   - the jks file for making apk is /freg/freg.jks
   - jks's password is fregfreg
-  
