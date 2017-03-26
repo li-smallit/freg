@@ -613,16 +613,15 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
 
     private void saveTrainImages(int cnt){
         Bitmap img = imagePreviewAdapter.getItem(cnt);
+        Bitmap timg = Bitmap.createScaledBitmap(img, 92, 112, false);
         try {
-            Date mDate = new Date();
-            SimpleDateFormat fileName = new SimpleDateFormat("yyyyMMdd");
             File targetFile = new File(Environment.getExternalStorageDirectory().toString(),
-                    "freg_train_"+String.valueOf(cnt)+ "_"+fileName.format(mDate) + ".jpg");
+                    "freg_train_"+String.valueOf(cnt) + ".jpg");
             if(targetFile.exists()){
                 return;
             }
             FileOutputStream fos = new FileOutputStream(targetFile);
-            img.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+            timg.compress(Bitmap.CompressFormat.JPEG, 100, fos);
             fos.close();
             Log.i("file path ", "" + targetFile.getAbsolutePath());
 
@@ -633,16 +632,12 @@ public final class FaceDetectRGBActivity extends AppCompatActivity implements Su
 
     private void saveTestImage(int cnt){
         Bitmap img = imagePreviewAdapter.getItem(cnt);
+        Bitmap timg = Bitmap.createScaledBitmap(img, 92, 112, false);
         try {
-            Date mDate = new Date();
-            SimpleDateFormat fileName = new SimpleDateFormat("yyyyMMdd");
             File targetFile = new File(Environment.getExternalStorageDirectory().toString(),
-                    "freg_test_"+fileName.format(mDate) + ".jpg");
-            if(targetFile.exists()){
-                return;
-            }
+                    "freg_test.jpg");
             FileOutputStream fos = new FileOutputStream(targetFile);
-            img.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+            timg.compress(Bitmap.CompressFormat.JPEG, 100, fos);
             fos.close();
             Log.i("file path ", "" + targetFile.getAbsolutePath());
 

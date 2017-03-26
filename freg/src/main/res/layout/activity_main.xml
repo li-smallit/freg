@@ -74,15 +74,19 @@
                 android:layout_margin="@dimen/activity_vertical_margin"
                 android:text="find who" />
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recycler_view_result"
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="@dimen/image_preview"
                 android:layout_height="@dimen/image_preview"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_margin="10dp"
-                android:scrollbars="horizontal" />
+                android:id="@+id/matched_image"
+                android:layout_margin="10dp"/>
 
+            <TextView
+                android:id="@+id/confidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium" />
 
         </LinearLayout>
     </ScrollView>

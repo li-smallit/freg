@@ -19,11 +19,18 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.opencv.core.Mat;
 import org.opencv.face.Face;
 import org.opencv.face.FaceRecognizer;
+import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.utils.Converters;
+import org.w3c.dom.Text;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 import jp.co.smallit.freg.activity.FaceDetectGrayActivity;
@@ -51,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Bitmap> facesBitmap;
     private ImageView testImage;
 
-    private RecyclerView recyclerViewResult;
+    private ImageView matchedImage;
+    private TextView txt_confidence;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mContext = this;
         testImage = (ImageView)findViewById(R.id.test_image);
+        matchedImage =(ImageView)findViewById(R.id.matched_image);
+        txt_confidence = (TextView)findViewById(R.id.confidence);
         //train face input
         Button btnTrain = (Button) findViewById(R.id.btnTrain);
         btnTrain.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         });
         recyclerView.setAdapter(imagePreviewAdapter);
         refreshTrainFace();
-
+        refreshTestFace();
         // test face input
         Button btnTest = (Button) findViewById(R.id.btnTest);
         btnTest.setOnClickListener(new View.OnClickListener() {
@@ -117,8 +127,55 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnFind = (Button)findViewById(R.id.btnFind);
+        btnFind.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                find();
+            }
+        });
     }
 
+    public void find(){
+        List<String> trainList = readFiles(true);
+        List<String> testList = readFiles(false);
+        FaceRecognizer rec = Face.createLBPHFaceRecognizer();
+        if (testList.size() > 0) {
+
+            String testPath = testList.get(0);
+            Mat srcMat = Imgcodecs.imread(testPath, Imgcodecs.IMREAD_GRAYSCALE);
+
+            List<Mat> mats = new ArrayList<>();
+            List<Integer> labels = new ArrayList<Integer>();
+            for (int i = 0; i < trainList.size(); i++) {
+                String filePath = trainList.get(i);
+                String fileName = filePath.substring(filePath.lastIndexOf("/") + 1);
+                Integer label = Integer.valueOf(fileName.substring(11, 12));
+                String labelInfo = fileName;
+                labels.add(label);
+                Mat mat = Imgcodecs.imread(filePath, Imgcodecs.IMREAD_GRAYSCALE);
+                Log.e(TAG, "label:" + label + "  labelInfo:" + labelInfo);
+                mats.add(mat);
+                rec.setLabelInfo(label, labelInfo);
+            }
+            Mat labelMat = Converters.vector_int_to_Mat(labels);
+            rec.train(mats, labelMat);
+            int[] labelr = new int[trainList.size()];
+            double[] confidence = new double[trainList.size()];
+
+            rec.predict(srcMat,labelr,confidence);
+            for(int i=0;i<trainList.size();i++) {
+                Log.i(TAG,"predict index :" + i + " label " + labels.get(i) + "  confidence :"+confidence[i]);
+            }
+
+            String matchedFilePath = Environment.getExternalStorageDirectory().toString()
+                    + "/freg_train_"+String.valueOf(labelr[0])+ ".jpg";
+            BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+            Bitmap bitmap = BitmapFactory.decodeFile(matchedFilePath,bmOptions);
+            matchedImage.setImageBitmap(bitmap);
+            txt_confidence.setText("確度:"+String.valueOf(confidence[0]));
+        }
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         Log.e(TAG, "onActivityResult " + requestCode);
@@ -133,6 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
+
     public void resetFiles(boolean isTrain){
         List<String> trainFaceList = readFiles(true);
         for(int i=0;i<trainFaceList.size();i++){
@@ -147,22 +205,18 @@ public class MainActivity extends AppCompatActivity {
         List<String> trainList = new ArrayList<>();
         File f = new File(Environment.getExternalStorageDirectory().toString());
         File[] files=f.listFiles();
-        Log.e(TAG, "filePath count  " + files.length);
-
         for(int i=0; i<files.length; i++)
         {
             File file = files[i];
             String filePath = file.getPath();
             String fileName = filePath.substring(filePath.lastIndexOf("/")+1);
-            Log.e(TAG, "filePath  " + filePath);
-
             if(filePath.endsWith(".jpg")) {
                 if (isTrain) {
                     if (fileName.startsWith("freg_train_")){
                         trainList.add(filePath);
                     }
                 } else {
-                    if (fileName.startsWith("freg_test_")){
+                    if (fileName.startsWith("freg_test")){
                         trainList.add(filePath);
                     }
                 }
@@ -174,13 +228,10 @@ public class MainActivity extends AppCompatActivity {
     public void refreshTrainFace(){
         imagePreviewAdapter.clearAll();
         List<String> trainFaceList = readFiles(true);
-        Log.e(TAG, "trainFaceList count " + trainFaceList.size());
-
         for(int i=0;i<trainFaceList.size();i++){
             BitmapFactory.Options bmOptions = new BitmapFactory.Options();
             Bitmap bitmap = BitmapFactory.decodeFile(trainFaceList.get(i),bmOptions);
             imagePreviewAdapter.add(bitmap);
-            Log.e(TAG, "train face path"+ trainFaceList.get(i));
         }
         imagePreviewAdapter.notifyDataSetChanged();
     }
