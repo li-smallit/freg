@@ -17,6 +17,7 @@
         android:id="@+id/layoutCheck"
         android:layout_width="@dimen/image_preview"
         android:layout_height="@dimen/image_preview"
+        android:visibility="gone"
         android:background="@color/colorBlackOverlay">
 
         <ImageView

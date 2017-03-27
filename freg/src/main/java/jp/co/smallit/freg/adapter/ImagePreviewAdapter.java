@@ -47,11 +47,11 @@ public class ImagePreviewAdapter extends
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder viewHolder, final int i) {
         final ViewHolder holder = (ViewHolder) viewHolder;
-        if (i == check) {
-            holder.layoutCheck.setVisibility(View.VISIBLE);
-        } else {
-            holder.layoutCheck.setVisibility(View.GONE);
-        }
+        //if (i == check) {
+        //    holder.layoutCheck.setVisibility(View.VISIBLE);
+        //} else {
+        //    holder.layoutCheck.setVisibility(View.GONE);
+        //}
 
         DisplayMetrics metrics = context.getResources().getDisplayMetrics();
         int size = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 60, metrics);
@@ -120,14 +120,14 @@ public class ImagePreviewAdapter extends
         private final OnItemClickListener onItemClickListenerListener;
         // Your holder should contain a member variable
         // for any view that will be set as you render a row
-        public RelativeLayout layoutCheck;
+        //public RelativeLayout layoutCheck;
         public ImageView imgPreview;
 
         // We also create a constructor that accepts the entire item row
         // and does the view lookups to find each subview
         public ViewHolder(View itemView, OnItemClickListener onItemClickListenerListener) {
             super(itemView);
-            this.layoutCheck = (RelativeLayout) itemView.findViewById(R.id.layoutCheck);
+        //    this.layoutCheck = (RelativeLayout) itemView.findViewById(R.id.layoutCheck);
             this.imgPreview = (ImageView) itemView.findViewById(R.id.imagePreview);
             this.onItemClickListenerListener = onItemClickListenerListener;
             itemView.setOnClickListener(this);
